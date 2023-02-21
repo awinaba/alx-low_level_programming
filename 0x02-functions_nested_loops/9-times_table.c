@@ -8,11 +8,14 @@
 
 void times_table(void)
 {
-	for (int i = 0; i < 10; i++)
+	int i = 0;
+	int j = 0;
+
+	while (i < 10)
 	{
-		for (int j = 0; j < 10; j++)
+		while (j < 10)
 		{
-			product = i * j;
+			int product = i * j;
 
 			if (j == 0)
 			{
@@ -32,7 +35,9 @@ void times_table(void)
 				_putchar('0' + (product / 10));
 				_putchar('0' + (product % 10));
 			}
+			j++;
 		}
+		i++;
 		_putchar('\n');
 	}
 }
