@@ -13,9 +13,12 @@ int main(void)
 	int number_one = 1;
 	int number_two = 2;
 	long int fibonacci_number = number_one + number_two;
-	int counter;
+	int counter = 3;
 
-	for (counter = 3; counter <= 50; counter++)
+	printf("%lu, ", number_one);
+	printf("%lu, ", number_two);
+
+	while (counter <= 50)
 	{
 		if (counter == 50)
 		{
@@ -28,6 +31,8 @@ int main(void)
 
 		number_one = number_two;
 		number_two = fibonacci_number;
+		fibonacci_number = number_one + number_two;
+		counter++;
 	}
 
 	return (0);
