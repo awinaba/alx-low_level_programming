@@ -10,8 +10,8 @@
 
 int main(void)
 {
-	int number_one = 1;
-	int number_two = 2;
+	long int number_one = 1;
+	long int number_two = 2;
 	long int fibonacci_number = number_one + number_two;
 	int counter = 3;
 
