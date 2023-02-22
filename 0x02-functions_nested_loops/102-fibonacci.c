@@ -12,7 +12,7 @@ int main(void)
 {
 	int number_one = 1;
 	int number_two = 2;
-	long int fibonacci number = number_one + number_two;
+	long int fibonacci_number = number_one + number_two;
 	int counter;
 
 	for (counter = 3; counter <= 50; counter++)
