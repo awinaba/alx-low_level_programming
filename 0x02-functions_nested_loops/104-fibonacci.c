@@ -12,7 +12,7 @@ int main(void)
 	long int number_one = 1;
 	long int number_two = 2;
 	long int fibonacci = number_one + number_two;
-	int counter = 1;
+	int counter = 3;
 
 	printf("%lu, ", number_one);
 	printf("%lu, ", number_two);
