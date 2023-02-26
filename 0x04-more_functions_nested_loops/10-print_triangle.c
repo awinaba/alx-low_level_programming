@@ -13,12 +13,13 @@ void print_triangle(int size)
 	int width;
 	int symbol;
 
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
+
 	for (height = 1; height <= size; height++)
 	{
-		if (size <= 0)
-		{
-			_putchar('\n');
-		}
 
 		for (width = 1; width <= (size - height); width++)
 		{
