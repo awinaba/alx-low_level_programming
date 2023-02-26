@@ -9,8 +9,7 @@
  *
  * Return: void
  */
-
-void main(void)
+int main(void)
 {
 	int number;
 
@@ -34,4 +33,6 @@ void main(void)
 		}
 	}
 	putchar('\n');
+
+	return (0);
 }
