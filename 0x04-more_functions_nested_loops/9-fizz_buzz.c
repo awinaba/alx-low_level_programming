@@ -7,10 +7,10 @@
  * For multiples of 5 print Buzz instead of th enumber
  * For numbers which are multiples of both 3 and 5 print FizzBuzz
  *
- * Return: Always 0
+ * Return: void
  */
 
-int main(void)
+void main(void)
 {
 	int number;
 
