@@ -27,6 +27,10 @@ int main(void)
 		{
 			printf("Buzz ");
 		}
+		else if (number >= 100)
+		{
+			printf("%d", number);
+		}
 		else
 		{
 			printf("%d ", number);
