@@ -9,22 +9,23 @@
 
 void print_triangle(int size)
 {
-	int t;
-	int indent;
+	int height;
+	int width;
+	int symbol;
 
-	for (t = 1; t <= size; t++)
+	for (height = 1; height <= size; height++)
 	{
 		if (size <= 0)
 		{
 			_putchar('\n');
 		}
 
-		for (indent = t; indent < size; indent++)
+		for (width = 1; width <= (size - height); width++)
 		{
 			_putchar(' ');
 		}
 
-		for (indent = 1 ; indent <= t; indent++)
+		for (symbol = 1 ; symbol <= height; symbol++)
 		{
 			_putchar('#');
 		}
