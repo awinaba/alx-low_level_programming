@@ -4,7 +4,7 @@
  * _strspn - gets the length of a prefix substring
  * @s: char array
  * @accept: char array to check bytes with
- * Retun: Number of bytes in the intial segment s
+ * Return: Number of bytes in the intial segment s
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -33,4 +33,4 @@ unsigned int _strspn(char *s, char *accept)
 		i++;
 	}
 	return (c);
-}
+i}
