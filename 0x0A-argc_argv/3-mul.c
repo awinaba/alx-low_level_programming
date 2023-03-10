@@ -15,19 +15,18 @@ int main(int argc, char *argv[])
 	int counter;
 	char error[] = "Error";
 
-	if (argc > 1)
-	{
-		for (counter = 1; counter < argc; counter++)
-		{
-			product *= atoi(argv[counter]);
-		}
-		printf("%d\n", product);
-	}
-	else
+	if (argc < 2)
 	{
 		printf("%s\n", error);
 		return (1);
 	}
+
+	for (counter = 1; counter < argc; counter++)
+	{
+		product *= atoi(argv[counter]);
+	}
+
+	printf("%d\n", product);
 
 	return (0);
 }
