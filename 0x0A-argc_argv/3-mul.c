@@ -23,8 +23,11 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", product);
 	}
-
-	printf("%s\n", error);
+	else
+	{
+		printf("%s\n", error);
+		return (1);
+	}
 
 	return (0);
 }
