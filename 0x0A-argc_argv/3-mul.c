@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -15,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 2)
 	{
-		printf("%s\n", "Error");
+		printf("Error\n");
 		return (1);
 	}
 
