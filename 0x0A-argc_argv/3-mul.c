@@ -13,11 +13,10 @@ int main(int argc, char *argv[])
 {
 	int product = 1;
 	int counter;
-	char error[] = "Error";
 
 	if (argc < 2)
 	{
-		printf("%s\n", error);
+		printf("Error\n");
 		return (1);
 	}
 
